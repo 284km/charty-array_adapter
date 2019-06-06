@@ -1,5 +1,21 @@
 # Charty::ArrayAdapter
 
+Execute the following code...
+
+```
+a = [[1, 2, 3, 4], [40, 30, 20, 10]]
+a.plotter = :pyplot
+bar = a.to_bar(:price, :sales) # (to_bar というメソッド名マシなものに変えたい)
+bar.render('sample')
+
+```
+
+Output such an image
+
+!()[https://github.com/284km/charty-array_adapter/blob/master/images/sample.png)
+
+---
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/charty/array_adapter`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
